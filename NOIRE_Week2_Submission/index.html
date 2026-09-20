@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Women | NOIRE</title>
+  <meta name="description" content="Shop the NOIRE women's Autumn/Winter 2026 collection: dresses, tailoring, knitwear and accessories.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="site-header__bar">
+      <a class="logo" href="#" aria-label="NOIRE home">NOIRE</a>
+
+      <ul class="header-tools">
+        <li><a href="#">Wishlist</a></li>
+        <li><a href="#">Bag</a></li>
+      </ul>
+
+      <!-- CSS-only menu toggle: checkbox state is read by the sibling selectors in style.css -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-button"><span class="visually-hidden">Menu</span><span class="nav-button__icon" aria-hidden="true"></span></label>
+
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#">New</a></li>
+          <li><a href="#" aria-current="page">Women</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Journal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Banner: <picture> serves a portrait crop on phones and a wide crop from 48em up (art direction) -->
+    <section class="banner" aria-labelledby="page-title">
+      <picture>
+        <source media="(min-width: 48em)" type="image/webp" srcset="images/banner-wide-800.webp 800w, images/banner-wide-1200.webp 1200w, images/banner-wide-1920.webp 1920w" sizes="100vw">
+        <source media="(min-width: 48em)" srcset="images/banner-wide-800.jpg 800w, images/banner-wide-1200.jpg 1200w, images/banner-wide-1920.jpg 1920w" sizes="100vw">
+        <source type="image/webp" srcset="images/banner-portrait-480.webp 480w, images/banner-portrait-780.webp 780w" sizes="100vw">
+        <img src="images/banner-portrait-780.jpg" srcset="images/banner-portrait-480.jpg 480w, images/banner-portrait-780.jpg 780w" sizes="100vw" width="780" height="873" fetchpriority="high" alt="Model in a dark brown tailored suit against a sunlit plaster wall">
+      </picture>
+      <div class="banner__content">
+        <p class="eyebrow">Autumn/Winter 2026</p>
+        <h1 id="page-title">Women</h1>
+        <p class="banner__lead">Refined silhouettes, considered details and timeless essentials for the new season.</p>
+      </div>
+    </section>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Women</a></li>
+        <li aria-current="page">All pieces</li>
+      </ol>
+    </nav>
+
+    <section class="shop" aria-labelledby="shop-title">
+      <h2 id="shop-title" class="visually-hidden">Women's collection</h2>
+
+      <div class="toolbar">
+        <p class="toolbar__count">12 pieces</p>
+        <div class="toolbar__sort">
+          <label for="sort">Sort by</label>
+          <select id="sort" name="sort">
+            <option>Recommended</option>
+            <option>Newest</option>
+            <option>Price: low to high</option>
+            <option>Price: high to low</option>
+          </select>
+        </div>
+        <ul class="chips" aria-label="Filter by category">
+          <li><button class="chip" type="button" aria-pressed="true">All</button></li>
+          <li><button class="chip" type="button" aria-pressed="false">Dresses</button></li>
+          <li><button class="chip" type="button" aria-pressed="false">Tops</button></li>
+          <li><button class="chip" type="button" aria-pressed="false">Trousers</button></li>
+          <li><button class="chip" type="button" aria-pressed="false">Outerwear</button></li>
+          <li><button class="chip" type="button" aria-pressed="false">Accessories</button></li>
+        </ul>
+      </div>
+
+      <ul class="product-grid">
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p01-320.webp 320w, images/p01-480.webp 480w, images/p01-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p01-480.jpg" srcset="images/p01-320.jpg 320w, images/p01-480.jpg 480w, images/p01-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Ivory pleated mini dress against a terracotta circle backdrop">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Pleated Mini Dress</h3>
+              <span class="product__price">&#8377;2,000 <s><span class="visually-hidden">Original price </span>&#8377;2,500</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p02-320.webp 320w, images/p02-480.webp 480w, images/p02-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p02-480.jpg" srcset="images/p02-320.jpg 320w, images/p02-480.jpg 480w, images/p02-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Grey tailored wool blazer over a cream polo neck">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Tailored Wool Blazer</h3>
+              <span class="product__price">&#8377;3,000 <s><span class="visually-hidden">Original price </span>&#8377;3,600</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p03-320.webp 320w, images/p03-480.webp 480w, images/p03-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p03-480.jpg" srcset="images/p03-320.jpg 320w, images/p03-480.jpg 480w, images/p03-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Cream cashmere polo neck worn with an oversized ivory blazer">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Cashmere Sweater</h3>
+              <span class="product__price">&#8377;2,500 <s><span class="visually-hidden">Original price </span>&#8377;2,900</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p04-320.webp 320w, images/p04-480.webp 480w, images/p04-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p04-480.jpg" srcset="images/p04-320.jpg 320w, images/p04-480.jpg 480w, images/p04-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Dark brown waistcoat with wide leg trousers">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Wide Leg Trousers</h3>
+              <span class="product__price">&#8377;3,500 <s><span class="visually-hidden">Original price </span>&#8377;4,200</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p05-320.webp 320w, images/p05-480.webp 480w, images/p05-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p05-480.jpg" srcset="images/p05-320.jpg 320w, images/p05-480.jpg 480w, images/p05-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Burgundy pleated midi dress with a square neckline">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Pleated Midi Dress</h3>
+              <span class="product__price">&#8377;2,200 <s><span class="visually-hidden">Original price </span>&#8377;2,800</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p06-320.webp 320w, images/p06-480.webp 480w, images/p06-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p06-480.jpg" srcset="images/p06-320.jpg 320w, images/p06-480.jpg 480w, images/p06-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Burgundy ribbed knit top with a draped neckline">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Ribbed Knit Top</h3>
+              <span class="product__price">&#8377;1,500 <s><span class="visually-hidden">Original price </span>&#8377;1,800</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p07-320.webp 320w, images/p07-480.webp 480w, images/p07-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p07-480.jpg" srcset="images/p07-320.jpg 320w, images/p07-480.jpg 480w, images/p07-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Dark brown leather shoulder bag with two handles">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Leather Shoulder Bag</h3>
+              <span class="product__price">&#8377;3,500 <s><span class="visually-hidden">Original price </span>&#8377;4,200</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p08-320.webp 320w, images/p08-480.webp 480w, images/p08-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p08-480.jpg" srcset="images/p08-320.jpg 320w, images/p08-480.jpg 480w, images/p08-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Camel oversized trench coat over cream trousers">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Oversized Trench Coat</h3>
+              <span class="product__price">&#8377;4,000 <s><span class="visually-hidden">Original price </span>&#8377;5,000</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="feature">
+          <article class="feature__inner" aria-labelledby="feature-title">
+            <picture>
+              <source type="image/webp" srcset="images/feature-600.webp 600w, images/feature-1055.webp 1055w" sizes="(min-width: 48em) 60vw, 100vw">
+              <img src="images/feature-600.jpg" srcset="images/feature-600.jpg 600w, images/feature-1055.jpg 1055w" sizes="(min-width: 48em) 60vw, 100vw" width="1055" height="760" loading="lazy" decoding="async" alt="Model in a flowing ivory satin dress caught in movement">
+            </picture>
+            <div class="feature__text">
+              <p class="eyebrow">Edit</p>
+              <h3 id="feature-title">The Evening Edit</h3>
+              <p class="feature__copy">Sculptural silhouettes and structured tailoring with a softer edge. Minimal details, maximum character.</p>
+              <a class="link" href="#">Shop the look <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </article>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p09-320.webp 320w, images/p09-480.webp 480w, images/p09-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p09-480.jpg" srcset="images/p09-320.jpg 320w, images/p09-480.jpg 480w, images/p09-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Black one-shoulder draped mini dress with a belt">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Asymmetric Draped Mini Dress</h3>
+              <span class="product__price">&#8377;3,200 <s><span class="visually-hidden">Original price </span>&#8377;3,800</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p10-320.webp 320w, images/p10-480.webp 480w, images/p10-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p10-480.jpg" srcset="images/p10-320.jpg 320w, images/p10-480.jpg 480w, images/p10-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Blush pink ruched mini dress with long sleeves">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Blush Ruched Mini Dress</h3>
+              <span class="product__price">&#8377;2,700 <s><span class="visually-hidden">Original price </span>&#8377;3,200</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p11-320.webp 320w, images/p11-480.webp 480w, images/p11-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p11-480.jpg" srcset="images/p11-320.jpg 320w, images/p11-480.jpg 480w, images/p11-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Ivory tiered ruffle dress with sheer sleeves">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Ivory Tiered Ruffle Dress</h3>
+              <span class="product__price">&#8377;2,900 <s><span class="visually-hidden">Original price </span>&#8377;3,400</s></span>
+            </div>
+          </a>
+        </li>
+        <li class="product">
+          <a class="product__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="images/p12-320.webp 320w, images/p12-480.webp 480w, images/p12-626.webp 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw">
+              <img src="images/p12-480.jpg" srcset="images/p12-320.jpg 320w, images/p12-480.jpg 480w, images/p12-626.jpg 626w" sizes="(min-width: 90em) 315px, (min-width: 64em) 22vw, (min-width: 48em) 30vw, 46vw" width="626" height="798" loading="lazy" decoding="async" alt="Burgundy dress with draped sleeves">
+            </picture>
+            <div class="product__info">
+              <h3 class="product__name">Draped Sleeve Dress</h3>
+              <span class="product__price">&#8377;3,300 <s><span class="visually-hidden">Original price </span>&#8377;3,900</s></span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="fit" aria-labelledby="fit-title">
+      <h2 id="fit-title">Size guide</h2>
+      <p>Measurements are body sizes in centimetres. If you are between sizes, we suggest sizing up for a relaxed fit.</p>
+      <div class="fit__table">
+        <table class="size-table">
+          <caption class="visually-hidden">Women's size guide</caption>
+          <thead>
+            <tr><th scope="col">Size</th><th scope="col">Bust (cm)</th><th scope="col">Waist (cm)</th><th scope="col">Hips (cm)</th><th scope="col">UK</th><th scope="col">EU</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row" data-label="Size">XS</th>
+            <td data-label="Bust (cm)">80</td>
+            <td data-label="Waist (cm)">62</td>
+            <td data-label="Hips (cm)">88</td>
+            <td data-label="UK">6</td>
+            <td data-label="EU">32</td>
+          </tr>
+          <tr>
+            <th scope="row" data-label="Size">S</th>
+            <td data-label="Bust (cm)">84</td>
+            <td data-label="Waist (cm)">66</td>
+            <td data-label="Hips (cm)">92</td>
+            <td data-label="UK">8</td>
+            <td data-label="EU">34</td>
+          </tr>
+          <tr>
+            <th scope="row" data-label="Size">M</th>
+            <td data-label="Bust (cm)">88</td>
+            <td data-label="Waist (cm)">70</td>
+            <td data-label="Hips (cm)">96</td>
+            <td data-label="UK">10</td>
+            <td data-label="EU">36</td>
+          </tr>
+          <tr>
+            <th scope="row" data-label="Size">L</th>
+            <td data-label="Bust (cm)">92</td>
+            <td data-label="Waist (cm)">74</td>
+            <td data-label="Hips (cm)">100</td>
+            <td data-label="UK">12</td>
+            <td data-label="EU">38</td>
+          </tr>
+          <tr>
+            <th scope="row" data-label="Size">XL</th>
+            <td data-label="Bust (cm)">96</td>
+            <td data-label="Waist (cm)">78</td>
+            <td data-label="Hips (cm)">104</td>
+            <td data-label="UK">14</td>
+            <td data-label="EU">40</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="services" aria-label="Shopping with NOIRE">
+      <ul>
+        <li><h2>Free delivery</h2><p>On all orders above &#8377;500, delivered in 5&ndash;7 business days.</p></li>
+        <li><h2>Easy returns</h2><p>Returns and exchanges accepted within 14 days of delivery.</p></li>
+        <li><h2>Secure payment</h2><p>Pay by UPI, card, net banking or cash on delivery.</p></li>
+      </ul>
+    </section>
+
+    <section class="newsletter" aria-labelledby="newsletter-title">
+      <div>
+        <h2 id="newsletter-title">Join the NOIRE world</h2>
+        <p>New arrivals, private previews and special invitations, straight to your inbox.</p>
+      </div>
+      <form action="#" method="post">
+        <label class="visually-hidden" for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email" autocomplete="email" required>
+        <button type="submit">Join now</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__grid">
+      <nav aria-label="Shop"><h2>Shop</h2><ul><li><a class="footer-link" href="#">New arrivals</a></li><li><a class="footer-link" href="#">Women</a></li><li><a class="footer-link" href="#">Men</a></li><li><a class="footer-link" href="#">Collections</a></li></ul></nav>
+      <nav aria-label="Customer care"><h2>Customer care</h2><ul><li><a class="footer-link" href="#">Contact us</a></li><li><a class="footer-link" href="#">Shipping &amp; delivery</a></li><li><a class="footer-link" href="#">Returns &amp; exchange</a></li><li><a class="footer-link" href="#">FAQs</a></li></ul></nav>
+      <nav aria-label="About NOIRE"><h2>About NOIRE</h2><ul><li><a class="footer-link" href="#">Our story</a></li><li><a class="footer-link" href="#">Sustainability</a></li><li><a class="footer-link" href="#">Journal</a></li></ul></nav>
+      <nav aria-label="Legal"><h2>Legal</h2><ul><li><a class="footer-link" href="#">Terms &amp; conditions</a></li><li><a class="footer-link" href="#">Privacy policy</a></li><li><a class="footer-link" href="#">Cookie policy</a></li></ul></nav>
+      <nav aria-label="Social media"><h2>Follow us</h2><ul><li><a class="footer-link" href="#">Instagram</a></li><li><a class="footer-link" href="#">Facebook</a></li><li><a class="footer-link" href="#">YouTube</a></li></ul></nav>
+    </div>
+    <p class="site-footer__legal">&copy; 2026 NOIRE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
