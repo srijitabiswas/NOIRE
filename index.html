@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOIRE | Autumn/Winter 2026</title>
+  <meta name="description" content="NOIRE is a premium fashion label. Explore the Autumn/Winter 2026 collection.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header & navigation ===== -->
+  <header class="site-header">
+    <div class="site-header__bar">
+      <a class="logo" href="#top" aria-label="NOIRE, back to top">NOIRE</a>
+
+      <!-- CSS-only mobile menu: the checkbox controls the nav below it -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-button"><span class="visually-hidden">Menu</span><span class="menu-button__icon" aria-hidden="true"></span></label>
+
+      <nav class="primary-nav" aria-label="Main">
+        <ul class="primary-nav__list">
+          <li><a href="#new-arrivals">New</a></li>
+          <li class="has-menu">
+            <a href="#shop">Women</a>
+            <div class="mega" aria-label="Women">
+              <div><h3>Clothing</h3><ul><li><a href="#shop">Dresses</a></li><li><a href="#shop">Tops</a></li><li><a href="#shop">Trousers</a></li><li><a href="#shop">Knitwear</a></li></ul></div>
+              <div><h3>Outerwear</h3><ul><li><a href="#shop">Coats</a></li><li><a href="#shop">Blazers</a></li><li><a href="#shop">Trench coats</a></li></ul></div>
+              <div><h3>Collections</h3><ul><li><a href="#featured">The New Form</a></li><li><a href="#evening-edit">The Evening Edit</a></li></ul></div>
+            </div>
+          </li>
+          <li class="has-menu">
+            <a href="#new-arrivals">Men</a>
+            <div class="mega" aria-label="Men">
+              <div><h3>Clothing</h3><ul><li><a href="#new-arrivals">Shirts</a></li><li><a href="#new-arrivals">Trousers</a></li><li><a href="#new-arrivals">Knitwear</a></li></ul></div>
+              <div><h3>Outerwear</h3><ul><li><a href="#new-arrivals">Jackets</a></li><li><a href="#new-arrivals">Coats</a></li></ul></div>
+              <div><h3>Collections</h3><ul><li><a href="#journal">The Tailoring Edit</a></li></ul></div>
+            </div>
+          </li>
+          <li><a href="#featured">Collections</a></li>
+          <li><a href="#journal">Journal</a></li>
+        </ul>
+        <ul class="primary-nav__tools">
+          <li><a href="#newsletter">Search</a></li>
+          <li><a href="#shop">Wishlist</a></li>
+          <li><a href="#shop">Bag</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero__image" src="images/hero.jpg" width="1920" height="873" alt="Model in a dark brown tailored suit standing against a sunlit plaster wall">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Autumn/Winter 2026</p>
+        <h1 id="hero-title">The Art<br>of Silhouette</h1>
+        <p class="hero__lead">Designed for the moments that matter.</p>
+        <a class="button" href="#shop">Explore now</a>
+      </div>
+    </section>
+
+    <!-- ===== Featured collection ===== -->
+    <section class="panel" id="featured" aria-labelledby="featured-title">
+      <div class="panel__text">
+        <div>
+          <p class="eyebrow">Featured collection</p>
+          <h2 id="featured-title">The New Form</h2>
+          <p>A study in proportion, texture and movement. Discover the pieces shaping NOIRE's Autumn/Winter 2026 collection.</p>
+        </div>
+        <a class="link" href="#shop">Explore collection <span aria-hidden="true">&rarr;</span></a>
+        <p class="panel__note">Autumn / Winter 2026</p>
+      </div>
+      <figure class="panel__media">
+        <img src="images/newform.jpg" width="961" height="835" loading="lazy" alt="Model in a camel tailored suit standing in a desert landscape">
+      </figure>
+    </section>
+
+    <!-- ===== New arrivals (image left) ===== -->
+    <section class="panel panel--reverse" id="new-arrivals" aria-labelledby="arrivals-title">
+      <figure class="panel__media">
+        <img src="images/arrivals.jpg" width="829" height="810" loading="lazy" alt="Man in a burgundy jacket and black trousers seated on a tan leather chair">
+      </figure>
+      <div class="panel__text">
+        <div>
+          <p class="eyebrow">New arrivals</p>
+          <h2 id="arrivals-title">Designed for a new season.</h2>
+          <p>Refined silhouettes, considered details and timeless essentials.</p>
+        </div>
+        <a class="link" href="#shop">View all new arrivals <span aria-hidden="true">&rarr;</span></a>
+        <p class="panel__note">06 &mdash; 24</p>
+      </div>
+    </section>
+
+    <!-- ===== The evening edit ===== -->
+    <section class="panel" id="evening-edit" aria-labelledby="evening-title">
+      <div class="panel__text">
+        <div>
+          <p class="eyebrow">Edit</p>
+          <h2 id="evening-title">The Evening Edit</h2>
+          <ol class="edit-list">
+            <li><strong>01 &mdash; The draped dress</strong><span>A sculptural silhouette designed to move with you.</span></li>
+            <li><strong>02 &mdash; The signature coat</strong><span>Structured tailoring with a softer edge.</span></li>
+            <li><strong>03 &mdash; Leather accents</strong><span>Minimal details. Maximum character.</span></li>
+          </ol>
+        </div>
+        <a class="link" href="#shop">Shop the look <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <figure class="panel__media">
+        <img src="images/evening.jpg" width="1055" height="760" loading="lazy" alt="Model in a flowing ivory satin dress caught in movement">
+      </figure>
+    </section>
+
+    <!-- ===== Just in: product grid ===== -->
+    <section class="shop" id="shop" aria-labelledby="shop-title">
+      <div class="shop__head">
+        <h2 id="shop-title">Just in</h2>
+        <a class="link" href="#top">Shop women <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <ul class="product-grid">
+        <li class="product">
+          <a href="#shop">
+            <figure><img src="images/p01.jpg" width="626" height="798" loading="lazy" alt="Pleated mini dress in ivory against a terracotta circle backdrop">
+              <figcaption><span class="product__name">Pleated Mini Dress</span><span class="product__price">&#8377;2,000 <s>&#8377;2,500</s></span></figcaption></figure>
+          </a>
+        </li>
+        <li class="product">
+          <a href="#shop">
+            <figure><img src="images/p02.jpg" width="626" height="798" loading="lazy" alt="Grey tailored wool blazer over a cream polo neck">
+              <figcaption><span class="product__name">Tailored Wool Blazer</span><span class="product__price">&#8377;3,000 <s>&#8377;3,600</s></span></figcaption></figure>
+          </a>
+        </li>
+        <li class="product">
+          <a href="#shop">
+            <figure><img src="images/p03.jpg" width="626" height="798" loading="lazy" alt="Cream cashmere polo neck sweater with an oversized ivory blazer">
+              <figcaption><span class="product__name">Cashmere Sweater</span><span class="product__price">&#8377;2,500 <s>&#8377;2,900</s></span></figcaption></figure>
+          </a>
+        </li>
+        <li class="product">
+          <a href="#shop">
+            <figure><img src="images/p04.jpg" width="626" height="798" loading="lazy" alt="Dark brown waistcoat and wide leg trousers">
+              <figcaption><span class="product__name">Wide Leg Trousers</span><span class="product__price">&#8377;3,500 <s>&#8377;4,200</s></span></figcaption></figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Journal (image left) ===== -->
+    <section class="panel panel--reverse" id="journal" aria-labelledby="journal-title">
+      <figure class="panel__media">
+        <img src="images/journal.jpg" width="853" height="839" loading="lazy" alt="Man leaning against a pale wall in a long jacket with fine embroidery">
+      </figure>
+      <article class="panel__text">
+        <div>
+          <p class="eyebrow">The NOIRE Journal</p>
+          <h2 id="journal-title">01 &mdash; The Art of Tailoring</h2>
+          <p>Exploring the relationship between structure, movement and the modern silhouette.</p>
+        </div>
+        <a class="link" href="#journal">Read story <span aria-hidden="true">&rarr;</span></a>
+        <ul class="tag-list" aria-label="Journal topics"><li><a href="#journal">Style</a></li><li><a href="#journal">Culture</a></li><li><a href="#journal">Craft</a></li></ul>
+      </article>
+    </section>
+
+    <!-- ===== Newsletter ===== -->
+    <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+      <div>
+        <h2 id="newsletter-title">Join the NOIRE world</h2>
+        <p>Be the first to know about new arrivals, exclusive previews, and special invitations.</p>
+      </div>
+      <form class="newsletter__form" action="#" method="post">
+        <label class="visually-hidden" for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email" autocomplete="email" required>
+        <button type="submit">Join now</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="site-footer__grid">
+      <nav aria-label="Shop"><h3>Shop</h3><ul><li><a href="#new-arrivals">New arrivals</a></li><li><a href="#shop">Women</a></li><li><a href="#new-arrivals">Men</a></li><li><a href="#featured">Collections</a></li></ul></nav>
+      <nav aria-label="Customer care"><h3>Customer care</h3><ul><li><a href="#top">Contact us</a></li><li><a href="#top">Shipping &amp; delivery</a></li><li><a href="#top">Returns &amp; exchange</a></li><li><a href="#top">FAQs</a></li></ul></nav>
+      <nav aria-label="About NOIRE"><h3>About NOIRE</h3><ul><li><a href="#top">Our story</a></li><li><a href="#top">Sustainability</a></li><li><a href="#journal">Journal</a></li></ul></nav>
+      <nav aria-label="Legal"><h3>Legal</h3><ul><li><a href="#top">Terms &amp; conditions</a></li><li><a href="#top">Privacy policy</a></li><li><a href="#top">Cookie policy</a></li></ul></nav>
+      <nav aria-label="Social media"><h3>Follow us</h3><ul><li><a href="#top">Instagram</a></li><li><a href="#top">Facebook</a></li><li><a href="#top">YouTube</a></li></ul></nav>
+    </div>
+    <p class="site-footer__legal">&copy; 2026 NOIRE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
