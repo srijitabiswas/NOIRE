@@ -1,0 +1,55 @@
+{
+ "slug": "the-art-of-silhouette",
+ "title": "The Art of Silhouette",
+ "date": "2026-09-08",
+ "readMinutes": 4,
+ "image": {
+  "base": "banner-wide",
+  "widths": [
+   800,
+   1200,
+   1920
+  ],
+  "ratio": [
+   1920,
+   873
+  ],
+  "alt": "Model in a dark brown tailored suit against a sunlit plaster wall"
+ },
+ "excerpt": "Structure and movement can share one shape. We look at the line a garment draws around the body before fabric or colour arrive.",
+ "products": [
+  "tailored-wool-blazer",
+  "wide-leg-trousers",
+  "oversized-trench-coat"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "text": "Silhouette is the first thing anyone reads. Before fabric or colour, there is the line a garment draws around the body, and this season we wanted that line to feel calm and certain."
+  },
+  {
+   "type": "h2",
+   "text": "Structure, softened"
+  },
+  {
+   "type": "p",
+   "text": "A shoulder that holds its edge is the anchor. Around it we let the fabric move: a wide trouser that swings when you walk, a coat cut long enough to keep travelling after you stop."
+  },
+  {
+   "type": "quote",
+   "text": "A good silhouette should look effortless from across the room and considered up close."
+  },
+  {
+   "type": "h2",
+   "text": "How to wear it"
+  },
+  {
+   "type": "p",
+   "text": "Start with one strong shape and keep everything else quiet. A structured blazer over a soft knit, or a fluid trouser under a sharp coat, is often all it takes."
+  },
+  {
+   "type": "p",
+   "text": "The pieces below are the ones our studio reaches for first."
+  }
+ ]
+}

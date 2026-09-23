@@ -1,0 +1,46 @@
+{
+ "slug": "draped-not-dressed",
+ "title": "Draped, Not Dressed",
+ "date": "2026-08-24",
+ "readMinutes": 3,
+ "image": {
+  "base": "feature",
+  "widths": [
+   600,
+   1055
+  ],
+  "ratio": [
+   1055,
+   760
+  ],
+  "alt": "Model in a flowing ivory satin dress caught in movement"
+ },
+ "excerpt": "The evening edit is built around cloth that moves after you stop. Notes from the studio on drape, weight and light.",
+ "products": [
+  "asymmetric-draped-mini-dress",
+  "draped-sleeve-dress",
+  "blush-ruched-mini-dress"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "text": "Drape is what happens when cloth is allowed to decide. It follows the body, catches the light and settles a moment after you do."
+  },
+  {
+   "type": "h2",
+   "text": "Weight matters"
+  },
+  {
+   "type": "p",
+   "text": "Satin and viscose behave very differently on the same pattern. We test each drape on a moving model, then adjust the cut until the fabric looks unhurried."
+  },
+  {
+   "type": "quote",
+   "text": "If it looks arranged, it is not draped. It should look as though it fell into place."
+  },
+  {
+   "type": "p",
+   "text": "Evening pieces ask for little else: minimal jewellery, a quiet shoe and enough room to move."
+  }
+ ]
+}

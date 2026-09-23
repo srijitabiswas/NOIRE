@@ -1,0 +1,50 @@
+{
+ "slug": "tailoring-softened",
+ "title": "Tailoring, Softened",
+ "date": "2026-08-10",
+ "readMinutes": 5,
+ "image": {
+  "base": "banner-portrait",
+  "widths": [
+   480,
+   780
+  ],
+  "ratio": [
+   780,
+   873
+  ],
+  "alt": "Model in a dark brown tailored suit, seen from the side"
+ },
+ "excerpt": "Classic tailoring loses its stiffness. A closer look at the fabrics and fits that make a blazer feel like knitwear.",
+ "products": [
+  "tailored-wool-blazer",
+  "cashmere-sweater",
+  "ribbed-knit-top"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "text": "Tailoring used to mean stiffness. Now it can mean a blazer that feels closer to a cardigan: same clean line, far more give."
+  },
+  {
+   "type": "h2",
+   "text": "The fabric does the work"
+  },
+  {
+   "type": "p",
+   "text": "Wool with a little stretch keeps its shape through a day of sitting, walking and carrying a bag. Cashmere blends bring the softness without losing the edge."
+  },
+  {
+   "type": "h2",
+   "text": "Layering"
+  },
+  {
+   "type": "p",
+   "text": "Pair a tailored blazer with a ribbed knit and a wide trouser. Each piece is simple alone; together they build a shape."
+  },
+  {
+   "type": "quote",
+   "text": "Comfort is not the opposite of polish. It is what lets polish last all day."
+  }
+ ]
+}

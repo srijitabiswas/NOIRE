@@ -1,0 +1,24 @@
+/* ==========================================================================
+   transitions.css: how one view gives way to the next.
+   1. View Transitions API (Chromium, Safari 18+): the browser cross-fades a snapshot of the old
+      view into the new one. Only #view gets a name, so the header and footer stay perfectly still.
+   2. Fallback: browsers without the API just play an enter animation on the new view.
+   Both are switched off for people who prefer reduced motion.
+   ========================================================================== */
+
+#view { view-transition-name: view; }
+
+::view-transition-old(view) { animation: 160ms ease-in both view-out; }
+::view-transition-new(view) { animation: 300ms ease-out both view-in; }
+/* pages have different heights, so do not animate the size of the group between them */
+::view-transition-group(view) { animation-duration: 0s; }
+
+@keyframes view-out { to { opacity: 0; transform: translateY(-6px); } }
+@keyframes view-in { from { opacity: 0; transform: translateY(12px); } }
+
+.view-enter { animation: 320ms ease-out both view-in; }
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+  .view-enter { animation: none; }
+}

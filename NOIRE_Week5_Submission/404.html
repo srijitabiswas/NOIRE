@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NOIRE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Static hosts such as GitHub Pages have no "send every URL to index.html" rule.
+       They serve this file for unknown paths instead. It remembers the address the visitor asked
+       for and sends them to the app, which then restores it (see restoreRedirect() in js/main.js).
+       Keep the base href the same as in index.html. -->
+  <base href="/">
+  <script>
+    (function () {
+      var base = new URL(document.baseURI).pathname;
+      var wanted = location.pathname + location.search + location.hash;
+      try { sessionStorage.setItem('noire.redirect', wanted); } catch (e) { /* ignore */ }
+      location.replace(base);
+    })();
+  </script>
+</head>
+<body>
+  <p>Loading NOIRE&hellip;</p>
+  <p><a href="./">Continue to the home page</a></p>
+</body>
+</html>

@@ -1,0 +1,212 @@
+{
+ "desktop: initial page": {
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "nodes": 1,
+    "targets": [
+     ".link"
+    ]
+   }
+  ],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 4
+   }
+  ],
+  "passes": 50
+ },
+ "desktop: filtered + item saved": {
+  "violations": [],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 3
+   }
+  ],
+  "passes": 50
+ },
+ "desktop: quick view open": {
+  "violations": [],
+  "incomplete": [],
+  "passes": 26
+ },
+ "desktop: quick view with error": {
+  "violations": [],
+  "incomplete": [],
+  "passes": 26
+ },
+ "desktop: bag open": {
+  "violations": [],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 1
+   }
+  ],
+  "passes": 26
+ },
+ "desktop: size finder errors": {
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "nodes": 1,
+    "targets": [
+     ".link"
+    ]
+   }
+  ],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 4
+   }
+  ],
+  "passes": 50
+ },
+ "desktop: newsletter error": {
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "nodes": 1,
+    "targets": [
+     ".link"
+    ]
+   }
+  ],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 4
+   }
+  ],
+  "passes": 50
+ },
+ "phone: initial page": {
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "nodes": 1,
+    "targets": [
+     ".link"
+    ]
+   }
+  ],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 6
+   }
+  ],
+  "passes": 51
+ },
+ "phone: menu open": {
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "nodes": 1,
+    "targets": [
+     ".link"
+    ]
+   }
+  ],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 6
+   }
+  ],
+  "passes": 51
+ },
+ "phone: filtered + item saved": {
+  "violations": [],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 5
+   }
+  ],
+  "passes": 51
+ },
+ "phone: quick view open": {
+  "violations": [],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 2
+   }
+  ],
+  "passes": 26
+ },
+ "phone: quick view with error": {
+  "violations": [],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 2
+   }
+  ],
+  "passes": 26
+ },
+ "phone: bag open": {
+  "violations": [],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 2
+   }
+  ],
+  "passes": 26
+ },
+ "phone: size finder errors": {
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "nodes": 1,
+    "targets": [
+     ".link"
+    ]
+   }
+  ],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 6
+   }
+  ],
+  "passes": 51
+ },
+ "phone: newsletter error": {
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "nodes": 1,
+    "targets": [
+     ".link"
+    ]
+   }
+  ],
+  "incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 6
+   }
+  ],
+  "passes": 51
+ }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "noire-week-5",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NOIRE single page application: client-side routing with the History API",
+  "type": "module",
+  "scripts": {
+    "dev": "serve -s . -l 3000",
+    "lint": "html-validate index.html 404.html && stylelint \"css/*.css\" && eslint js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "html-validate": "^9.0.0",
+    "serve": "^14.2.0",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^38.0.0"
+  }
+}

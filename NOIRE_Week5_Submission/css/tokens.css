@@ -1,0 +1,67 @@
+/* ==========================================================================
+   tokens.css: fonts and design tokens (colours, type scale, spacing).
+   Every other stylesheet reads these values, so a change here restyles the app.
+   ========================================================================== */
+
+/* Fonts are self-hosted and subset (see Week 4). The rupee sign is a tiny separate file. */
+@font-face {
+  font-family: 'Ubuntu Sans'; font-weight: 400; font-display: swap;
+  src: url('../fonts/ubuntu-sans-400.woff2') format('woff2');
+  unicode-range: U+20-7E, U+A0, U+A9, U+B7, U+D7, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2212;
+}
+@font-face {
+  font-family: 'Ubuntu Sans'; font-weight: 500; font-display: swap;
+  src: url('../fonts/ubuntu-sans-500.woff2') format('woff2');
+  unicode-range: U+20-7E, U+A0, U+A9, U+B7, U+D7, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2212;
+}
+@font-face {
+  font-family: 'Ubuntu Sans'; font-weight: 700; font-display: swap;
+  src: url('../fonts/ubuntu-sans-700.woff2') format('woff2');
+  unicode-range: U+20-7E, U+A0, U+A9, U+B7, U+D7, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2212;
+}
+@font-face {
+  font-family: 'Ubuntu Sans'; font-weight: 400 500; font-display: swap;
+  src: url('../fonts/ubuntu-sans-rupee-400.woff2') format('woff2');
+  unicode-range: U+20B9;
+}
+@font-face {
+  font-family: 'Ubuntu Sans'; font-weight: 700; font-display: swap;
+  src: url('../fonts/ubuntu-sans-rupee-700.woff2') format('woff2');
+  unicode-range: U+20B9;
+}
+
+:root {
+  --cream: #fdefdf;
+  --ink: #1b110e;
+  --dark: #221714;
+  --dark-hover: #3a2a24;
+  --accent: #a93813;          /* 5.7:1 on cream, 4.8:1 on the band colour (WCAG AA) */
+  --error: #a3241a;
+  --band: #ecddc9;
+  --panel: #f6e6d2;
+  --line: #5b4a40;
+  --line-soft: rgb(91 74 64 / 0.25);
+  --muted: #4a3a32;
+  --strike: #75634f;
+  --photo-line: #cdb99f;
+  --overlay: rgb(34 23 20 / 0.55);
+
+  --font: 'Ubuntu Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+  /* Fluid type scale: min, preferred (grows with the viewport), max */
+  --step-sm: clamp(0.78rem, 0.74rem + 0.2vw, 0.875rem);
+  --step-0:  clamp(0.94rem, 0.9rem + 0.2vw, 1.0625rem);
+  --step-1:  clamp(1.1rem, 1rem + 0.5vw, 1.4rem);
+  --step-2:  clamp(1.5rem, 1.2rem + 1.4vw, 2.25rem);
+  --step-3:  clamp(2rem, 1.3rem + 3.4vw, 4.25rem);
+
+  --header-h: 3.75rem;
+  --gutter: clamp(1rem, 4vw, 3rem);
+  --gap: clamp(1rem, 2.2vw, 1.75rem);
+  --max: 90rem;
+  --card-min: 8.5rem;         /* ideal minimum product card width, raised at breakpoints */
+}
+@media (min-width: 30em) { :root { --card-min: 10rem; } }
+@media (min-width: 48em) { :root { --card-min: 11rem; --header-h: 4.25rem; } }
+@media (min-width: 64em) { :root { --card-min: 13rem; } }
+@media (min-width: 90em) { :root { --card-min: 16.5rem; } }

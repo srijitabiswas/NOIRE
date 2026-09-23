@@ -1,0 +1,62 @@
+{
+ "articles": [
+  {
+   "slug": "the-art-of-silhouette",
+   "title": "The Art of Silhouette",
+   "date": "2026-09-08",
+   "readMinutes": 4,
+   "image": {
+    "base": "banner-wide",
+    "widths": [
+     800,
+     1200,
+     1920
+    ],
+    "ratio": [
+     1920,
+     873
+    ],
+    "alt": "Model in a dark brown tailored suit against a sunlit plaster wall"
+   },
+   "excerpt": "Structure and movement can share one shape. We look at the line a garment draws around the body before fabric or colour arrive."
+  },
+  {
+   "slug": "draped-not-dressed",
+   "title": "Draped, Not Dressed",
+   "date": "2026-08-24",
+   "readMinutes": 3,
+   "image": {
+    "base": "feature",
+    "widths": [
+     600,
+     1055
+    ],
+    "ratio": [
+     1055,
+     760
+    ],
+    "alt": "Model in a flowing ivory satin dress caught in movement"
+   },
+   "excerpt": "The evening edit is built around cloth that moves after you stop. Notes from the studio on drape, weight and light."
+  },
+  {
+   "slug": "tailoring-softened",
+   "title": "Tailoring, Softened",
+   "date": "2026-08-10",
+   "readMinutes": 5,
+   "image": {
+    "base": "banner-portrait",
+    "widths": [
+     480,
+     780
+    ],
+    "ratio": [
+     780,
+     873
+    ],
+    "alt": "Model in a dark brown tailored suit, seen from the side"
+   },
+   "excerpt": "Classic tailoring loses its stiffness. A closer look at the fabrics and fits that make a blazer feel like knitwear."
+  }
+ ]
+}

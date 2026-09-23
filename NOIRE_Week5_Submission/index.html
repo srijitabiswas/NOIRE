@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOIRE</title>
+  <meta name="description" content="NOIRE is a premium fashion label. Shop the Autumn/Winter 2026 collection and read the journal.">
+  <meta name="theme-color" content="#fdefdf">
+  <!-- All asset and route URLs are resolved against this base, so deep links such as
+       /product/pleated-mini-dress still find css/, js/ and images/.
+       Deploying under a sub-folder (for example GitHub Pages: /repo-name/)? Change it here and in 404.html. -->
+  <base href="/">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/ubuntu-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ubuntu-sans-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/views.css">
+  <link rel="stylesheet" href="css/transitions.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#view">Skip to content</a>
+
+  <!-- The shell: header and footer stay in place while only #view changes -->
+  <header class="site-header">
+    <div class="site-header__bar">
+      <a class="logo" href="./" data-link aria-label="NOIRE, home">NOIRE</a>
+
+      <button class="nav-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="visually-hidden">Menu</span><span class="nav-button__icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="shop?new=1" data-link data-nav="new">New</a></li>
+          <li><a href="shop" data-link data-nav="shop">Women</a></li>
+          <li><a href="journal" data-link data-nav="journal">Journal</a></li>
+          <li><a href="about" data-link data-nav="about">About</a></li>
+        </ul>
+      </nav>
+
+      <ul class="header-tools">
+        <li><a href="wishlist" data-link data-nav="wishlist" id="wish-link">Wishlist<span class="badge" data-count="wish" hidden>0</span></a></li>
+        <li><a href="bag" data-link data-nav="bag" id="bag-link">Bag<span class="badge" data-count="bag" hidden>0</span></a></li>
+      </ul>
+    </div>
+    <div class="progress" id="progress" hidden aria-hidden="true"></div>
+  </header>
+
+  <main id="view" tabindex="-1">
+    <noscript><p class="noscript">NOIRE loads each page with JavaScript. Please turn it on to browse the collection.</p></noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__grid">
+      <nav aria-label="Shop">
+        <h2>Shop</h2>
+        <ul>
+          <li><a class="footer-link" href="shop?new=1" data-link>New arrivals</a></li>
+          <li><a class="footer-link" href="shop" data-link>Women</a></li>
+          <li><a class="footer-link" href="shop?category=Dresses" data-link>Dresses</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Explore">
+        <h2>Explore</h2>
+        <ul>
+          <li><a class="footer-link" href="journal" data-link>Journal</a></li>
+          <li><a class="footer-link" href="about" data-link>Our story</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Your account">
+        <h2>Your account</h2>
+        <ul>
+          <li><a class="footer-link" href="wishlist" data-link>Wishlist</a></li>
+          <li><a class="footer-link" href="bag" data-link>Bag</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="site-footer__legal">&copy; 2026 NOIRE. Demo storefront: no real orders are placed.</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <!-- Screen readers do not notice that a "page" changed in a single page app, so the router announces it here -->
+  <p class="visually-hidden" id="announcer" role="status" aria-live="polite"></p>
+</body>
+</html>

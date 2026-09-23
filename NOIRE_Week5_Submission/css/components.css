@@ -1,0 +1,81 @@
+/* ==========================================================================
+   components.css: pieces that several views reuse (product cards, chips,
+   form controls, skeletons).
+   ========================================================================== */
+
+/* Product grid and card ---------------------------------------------------
+   auto-fill packs as many columns as fit when each is at least --card-min wide. */
+.product-grid {
+  display: grid; gap: 1.5rem var(--gap);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--card-min)), 1fr));
+}
+.product { position: relative; container-type: inline-size; }
+.product__link { display: block; }
+.product picture { display: block; overflow: hidden; border: 1px solid var(--photo-line); background: var(--panel); }
+.product img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; transition: transform 0.5s; }
+.product__info { display: block; margin-top: 0.6rem; }
+.product__name { font-size: var(--step-sm); font-weight: 400; line-height: 1.35; }
+.product__price { display: block; font-size: var(--step-sm); color: var(--muted); }
+.product__price s { color: var(--strike); margin-left: 0.35rem; }
+@container (min-width: 14rem) {
+  .product__name { font-size: 1rem; }
+  .product__price { font-size: 0.9375rem; }
+}
+.heart {
+  position: absolute; top: 0.3rem; right: 0.3rem; z-index: 1;
+  display: grid; place-items: center; width: 2.75rem; height: 2.75rem;
+  border: 0; border-radius: 50%; background: transparent; color: var(--ink); cursor: pointer;
+}
+.heart svg { width: 1.4rem; height: 1.4rem; fill: rgb(253 239 223 / 0.55); stroke: currentcolor; stroke-width: 1.6; stroke-linejoin: round; }
+.heart[aria-pressed='true'] svg { fill: var(--accent); stroke: var(--accent); animation: pop 0.3s ease-out; }
+@keyframes pop { 50% { transform: scale(1.3); } }
+@media (hover: hover) and (pointer: fine) {
+  .product__link:hover img { transform: scale(1.03); }
+}
+
+/* Category chips: links, because choosing one changes the URL --------------- */
+.chips { display: flex; gap: 0.5rem; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; padding-bottom: 0.15rem; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 1.1rem; border: 1px solid var(--line); white-space: nowrap; scroll-snap-align: start; font-size: var(--step-sm); }
+.chip[aria-current='true'] { background: var(--dark); border-color: var(--dark); color: var(--cream); }
+@media (hover: hover) and (pointer: fine) {
+  .chip:hover { background: var(--band); }
+  .chip[aria-current='true']:hover { background: var(--dark); }
+}
+
+/* Form controls ----------------------------------------------------------- */
+.field-error { min-height: 1.3em; color: var(--error); font-size: var(--step-sm); }
+.select, .search {
+  min-height: 2.75rem; padding: 0 0.75rem; border: 1px solid var(--line); background: var(--panel);
+}
+.search { background: var(--cream); min-width: 0; }
+::placeholder { color: var(--muted); opacity: 1; }
+
+.size-options { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.size-option { position: relative; }
+.size-option input { position: absolute; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+.size-option span { display: grid; place-items: center; min-width: 2.75rem; height: 2.75rem; padding: 0 0.6rem; border: 1px solid var(--line); }
+.size-option input:checked + span { background: var(--dark); border-color: var(--dark); color: var(--cream); }
+.size-option input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.qty { display: inline-flex; align-items: center; border: 1px solid var(--line); }
+.qty button { width: 2.75rem; height: 2.75rem; border: 0; background: transparent; font-size: 1.1rem; cursor: pointer; }
+.qty output { min-width: 1.75rem; text-align: center; }
+
+/* Skeletons: grey shapes shown while a slow page loads ----------------------- */
+.skeleton { display: grid; gap: 1.25rem; padding: 2rem var(--gutter); max-width: var(--max); margin-inline: auto; }
+.skeleton__bar, .skeleton__card { border-radius: 2px; background: linear-gradient(100deg, var(--band) 30%, var(--panel) 50%, var(--band) 70%) 0 0 / 300% 100%; animation: shimmer 1.4s linear infinite; }
+.skeleton__bar { height: 2.2rem; width: min(24rem, 70%); }
+.skeleton__grid { display: grid; gap: 1rem var(--gap); grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--card-min)), 1fr)); }
+.skeleton__card { aspect-ratio: 4 / 5; }
+@keyframes shimmer { to { background-position: -300% 0; } }
+
+@media (forced-colors: active) {
+  .chip[aria-current='true'], .size-option input:checked + span { forced-color-adjust: none; background: Highlight; border-color: Highlight; color: HighlightText; }
+  .heart svg { fill: none; stroke: ButtonText; }
+  .heart[aria-pressed='true'] svg { forced-color-adjust: none; fill: Highlight; stroke: Highlight; }
+  .skeleton__bar, .skeleton__card { forced-color-adjust: none; background: GrayText; animation: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .heart[aria-pressed='true'] svg, .skeleton__bar, .skeleton__card { animation: none; }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "noire-week-4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NOIRE women's collection page: Week 4 performance and accessibility build",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "serve dist",
+    "serve:src": "serve src",
+    "lint": "html-validate src/index.html && stylelint \"src/css/*.css\" && eslint src/js/main.js",
+    "check": "npm run lint && npm run build && html-validate dist/index.html"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "html-minifier-terser": "^7.2.0",
+    "serve": "^14.2.0",
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "html-validate": "^9.0.0",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^38.0.0"
+  }
+}

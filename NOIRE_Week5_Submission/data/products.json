@@ -1,0 +1,396 @@
+{
+ "products": [
+  {
+   "id": "pleated-mini-dress",
+   "name": "Pleated Mini Dress",
+   "category": "Dresses",
+   "price": 2000,
+   "mrp": 2500,
+   "image": "p01",
+   "alt": "Ivory pleated mini dress against a terracotta circle backdrop",
+   "description": "A pleated mini dress with a relaxed silhouette and a refined finish, cut from a lightweight, soft-touch fabric.",
+   "colors": [
+    "Maroon",
+    "Black",
+    "Pink"
+   ],
+   "style": "Minimal",
+   "material": "Viscose",
+   "occasion": "Casual",
+   "isNew": true,
+   "order": 1,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Minimal fit",
+    "Viscose fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "tailored-wool-blazer",
+   "name": "Tailored Wool Blazer",
+   "category": "Outerwear",
+   "price": 3000,
+   "mrp": 3600,
+   "image": "p02",
+   "alt": "Grey tailored wool blazer over a cream polo neck",
+   "description": "A structured wool blazer with a softer edge. Tailored to layer over knitwear.",
+   "colors": [
+    "Grey",
+    "Black",
+    "Camel"
+   ],
+   "style": "Tailored",
+   "material": "Wool",
+   "occasion": "Universal",
+   "isNew": true,
+   "order": 2,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Tailored fit",
+    "Wool fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "cashmere-sweater",
+   "name": "Cashmere Sweater",
+   "category": "Tops",
+   "price": 2500,
+   "mrp": 2900,
+   "image": "p03",
+   "alt": "Cream cashmere polo neck worn with an oversized ivory blazer",
+   "description": "A soft cashmere polo neck sweater. Warm, light and easy to layer.",
+   "colors": [
+    "Ivory",
+    "Camel",
+    "Black"
+   ],
+   "style": "Minimal",
+   "material": "Wool",
+   "occasion": "Casual",
+   "isNew": true,
+   "order": 3,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Minimal fit",
+    "Wool fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "wide-leg-trousers",
+   "name": "Wide Leg Trousers",
+   "category": "Trousers",
+   "price": 3500,
+   "mrp": 4200,
+   "image": "p04",
+   "alt": "Dark brown waistcoat with wide leg trousers",
+   "description": "High-waisted wide leg trousers in a fluid drape. Wear them with the matching waistcoat.",
+   "colors": [
+    "Brown",
+    "Black",
+    "Ivory"
+   ],
+   "style": "Tailored",
+   "material": "Wool",
+   "occasion": "Universal",
+   "isNew": true,
+   "order": 4,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Tailored fit",
+    "Wool fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "pleated-midi-dress",
+   "name": "Pleated Midi Dress",
+   "category": "Dresses",
+   "price": 2200,
+   "mrp": 2800,
+   "image": "p05",
+   "alt": "Burgundy pleated midi dress with a square neckline",
+   "description": "A pleated midi dress with a square neckline and a full, flowing skirt.",
+   "colors": [
+    "Burgundy",
+    "Black",
+    "Ivory"
+   ],
+   "style": "Relaxed",
+   "material": "Viscose",
+   "occasion": "Party",
+   "isNew": false,
+   "order": 5,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Relaxed fit",
+    "Viscose fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "ribbed-knit-top",
+   "name": "Ribbed Knit Top",
+   "category": "Tops",
+   "price": 1500,
+   "mrp": 1800,
+   "image": "p06",
+   "alt": "Burgundy ribbed knit top with a draped neckline",
+   "description": "A ribbed knit top with a draped neckline and a close, comfortable fit.",
+   "colors": [
+    "Burgundy",
+    "Black",
+    "Ivory"
+   ],
+   "style": "Minimal",
+   "material": "Cotton",
+   "occasion": "Casual",
+   "isNew": true,
+   "order": 6,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Minimal fit",
+    "Cotton fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "leather-shoulder-bag",
+   "name": "Leather Shoulder Bag",
+   "category": "Accessories",
+   "price": 3500,
+   "mrp": 4200,
+   "image": "p07",
+   "alt": "Dark brown leather shoulder bag with two handles",
+   "description": "A leather shoulder bag with two handles and a roomy interior.",
+   "colors": [
+    "Brown",
+    "Black",
+    "Camel"
+   ],
+   "style": "Designer",
+   "material": "Leather",
+   "occasion": "Universal",
+   "isNew": false,
+   "order": 7,
+   "sizes": [
+    "One size"
+   ],
+   "details": [
+    "Designer fit",
+    "Leather fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "oversized-trench-coat",
+   "name": "Oversized Trench Coat",
+   "category": "Outerwear",
+   "price": 4000,
+   "mrp": 5000,
+   "image": "p08",
+   "alt": "Camel oversized trench coat over cream trousers",
+   "description": "An oversized trench coat in camel, cut long for a relaxed drape.",
+   "colors": [
+    "Camel",
+    "Black",
+    "Ivory"
+   ],
+   "style": "Relaxed",
+   "material": "Cotton",
+   "occasion": "Universal",
+   "isNew": false,
+   "order": 8,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Relaxed fit",
+    "Cotton fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "asymmetric-draped-mini-dress",
+   "name": "Asymmetric Draped Mini Dress",
+   "category": "Dresses",
+   "price": 3200,
+   "mrp": 3800,
+   "image": "p09",
+   "alt": "Black one-shoulder draped mini dress with a belt",
+   "description": "An asymmetric draped mini dress with a defined waist.",
+   "colors": [
+    "Black",
+    "Burgundy",
+    "Ivory"
+   ],
+   "style": "Evening",
+   "material": "Satin",
+   "occasion": "Party",
+   "isNew": false,
+   "order": 9,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Evening fit",
+    "Satin fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "blush-ruched-mini-dress",
+   "name": "Blush Ruched Mini Dress",
+   "category": "Dresses",
+   "price": 2700,
+   "mrp": 3200,
+   "image": "p10",
+   "alt": "Blush pink ruched mini dress with long sleeves",
+   "description": "A ruched mini dress in blush pink with long sleeves and a flared hem.",
+   "colors": [
+    "Pink",
+    "Ivory",
+    "Black"
+   ],
+   "style": "Evening",
+   "material": "Polyester",
+   "occasion": "Party",
+   "isNew": false,
+   "order": 10,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Evening fit",
+    "Polyester fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "ivory-tiered-ruffle-dress",
+   "name": "Ivory Tiered Ruffle Dress",
+   "category": "Dresses",
+   "price": 2900,
+   "mrp": 3400,
+   "image": "p11",
+   "alt": "Ivory tiered ruffle dress with sheer sleeves",
+   "description": "A tiered ruffle dress in ivory with sheer sleeves.",
+   "colors": [
+    "Ivory",
+    "Sage",
+    "Pink"
+   ],
+   "style": "Relaxed",
+   "material": "Viscose",
+   "occasion": "Festive",
+   "isNew": false,
+   "order": 11,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Relaxed fit",
+    "Viscose fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  },
+  {
+   "id": "draped-sleeve-dress",
+   "name": "Draped Sleeve Dress",
+   "category": "Dresses",
+   "price": 3300,
+   "mrp": 3900,
+   "image": "p12",
+   "alt": "Burgundy dress with draped sleeves",
+   "description": "A dress with dramatic draped sleeves and a sculpted waist.",
+   "colors": [
+    "Burgundy",
+    "Black",
+    "Sage"
+   ],
+   "style": "Evening",
+   "material": "Satin",
+   "occasion": "Wedding",
+   "isNew": false,
+   "order": 12,
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "details": [
+    "Evening fit",
+    "Satin fabric",
+    "Machine wash cold with similar colours",
+    "Iron on low heat"
+   ]
+  }
+ ]
+}
